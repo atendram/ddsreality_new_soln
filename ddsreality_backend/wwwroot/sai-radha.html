@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DDS Realty | Sai Radha</title>
+  <meta name="description"
+    content="Explore Sai Radha properties with DDS Realty. Find your perfect home or investment in this prime location." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Template style -->
+  <!--Fav icon-->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon_new.webp" />
+  <!-- datepikar plugin -->
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+  <!--animate css-->
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <!--bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <!--fonts css-->
+  <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+  <!--font-awesome css-->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+  <!-- carousal css -->
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+  <!-- custom css-->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <!--favicon-->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* ✅ Banner Fix */
+    .banner-image img {
+      width: 100%;
+      height: auto;
+      /* auto adjusts for smaller screens */
+      max-height: 500px;
+      object-fit: cover;
+    }
+
+    .banner-text h1 {
+      font-size: clamp(24px, 5vw, 48px);
+    }
+
+    .banner-text p {
+      font-size: clamp(16px, 3vw, 24px);
+    }
+
+    /* ✅ Services Section Fix */
+    .services-list.one-row {
+      flex-wrap: wrap;
+      /* wrap items on smaller screens */
+      justify-content: center;
+    }
+
+    .service-item {
+      width: 100%;
+      max-width: 200px;
+      margin: 10px auto;
+    }
+
+    /* ✅ Content & Image Balance */
+    @media (max-width: 767px) {
+      .hs-blog-image img {
+        max-height: 300px;
+        margin-top: 20px;
+      }
+    }
+
+    /* ✅ Contact Info Section */
+    @media (max-width: 991px) {
+      .hs-box .d-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hs-box .d-flex span {
+        margin-bottom: 10px;
+      }
+
+      .n-border {
+        border-left: none !important;
+        padding-left: 0 !important;
+      }
+    }
+
+    /* ✅ General Typography */
+    h1 {
+      font-size: clamp(28px, 5vw, 48px);
+    }
+
+    h4 {
+      font-size: clamp(18px, 3vw, 24px);
+    }
+
+    p {
+      font-size: clamp(14px, 2.5vw, 18px);
+    }
+
+    .section-title {
+      position: relative;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #000;
+      /* black text */
+      display: inline-block;
+      width: 100%;
+    }
+
+    /* underline line */
+    .section-title::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -15px;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 2px;
+      background: #ddd;
+      /* grey line */
+    }
+
+    /* diamond shape */
+    .section-title::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -22px;
+      transform: translateX(-50%) rotate(45deg);
+      width: 12px;
+      height: 12px;
+      background: #4285f4;
+      /* blue diamond */
+      border: 2px solid #fff;
+      /* white border around diamond */
+      box-shadow: 0 0 0 1px #ddd;
+      /* grey border line around */
+    }
+
+    .call-btn {
+      display: inline-block;
+      background: #4285f4;
+      /* Google Blue */
+      color: #fff !important;
+      /* White text */
+      padding: 10px 20px;
+      border-radius: 50px;
+      /* Rounded pill */
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .call-btn i {
+      margin-right: 8px;
+    }
+
+    .call-btn:hover {
+      background: #3367d6;
+      /* Darker blue on hover */
+      transform: translateY(-2px);
+      /* Lift effect */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .hs-servicer-sec {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .services-list.row {
+      /* override Bootstrap row spacing */
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .service-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-item:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-item span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 12px;
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .service-item span img {
+      width: 55px;
+      height: 55px;
+      object-fit: contain;
+    }
+
+    .service-item h5 {
+      font-size: 15px;
+      color: #333;
+      margin: 0;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .view-site-btn {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      padding: 8px 14px;
+      background-color: #f1c40f;
+      color: #111;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    .view-site-btn:hover {
+      background-color: #d4ac0d;
+      color: #fff;
+    }
+
+    .wrap-nav-item {
+      position: relative;
+    }
+
+    /* Dropdown */
+    .dropdown-items {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      padding: 20px;
+      border-radius: 14px;
+      min-width: 420px;
+
+      /* 2-column grid */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 25px;
+
+      /* Animation */
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(12px) scale(0.97);
+      transition: 0.25s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+      z-index: 999;
+    }
+
+    /* Show dropdown */
+    .wrap-nav-item:hover>.dropdown-items {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0px) scale(1);
+    }
+
+    /* Items */
+    .dropdown-items li a {
+      display: block;
+      padding: 8px 0;
+      font-size: 15px;
+      color: #333;
+      text-decoration: none;
+      transition: 0.2s;
+      border-radius: 6px;
+    }
+
+    /* Hover effect */
+    .dropdown-items li a:hover {
+      background: rgba(13, 110, 253, 0.12);
+      color: #0d6efd;
+    }
+
+    /* Wrapper */
+    .wrap-nav-item {
+      position: relative;
+    }
+
+    /* Dropdown container */
+    .dropdown-items {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      padding: 20px;
+      border-radius: 14px;
+      min-width: 420px;
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      /* Desktop 2 columns */
+      gap: 10px 25px;
+
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(12px) scale(0.97);
+      transition: 0.25s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+      z-index: 9999;
+    }
+
+    /* Show dropdown on hover */
+    .wrap-nav-item:hover>.dropdown-items {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0px) scale(1);
+    }
+
+    /* Items */
+    .dropdown-items li a {
+      display: block;
+      padding: 8px 0;
+      font-size: 15px;
+      color: #333;
+      text-decoration: none;
+      transition: 0.2s;
+      border-radius: 6px;
+    }
+
+    .dropdown-items li a:hover {
+      background: rgba(13, 110, 253, 0.12);
+      color: #0d6efd;
+    }
+
+    /* ------------------------------------
+   Mobile Responsive (≤ 768px)
+-------------------------------------- */
+    @media (max-width: 768px) {
+
+      .dropdown-items {
+        position: static;
+        /* Attach inside sidebar/nav */
+        min-width: 100%;
+        /* Full width */
+        border-radius: 10px;
+        margin-top: 10px;
+
+        grid-template-columns: 1fr;
+        /* 1 column */
+        padding: 15px;
+        transform: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        box-shadow: none;
+        /* remove heavy shadow on mobile */
+      }
+
+      /* Make links bigger for touch */
+      .dropdown-items li a {
+        padding: 12px 0;
+        font-size: 16px;
+      }
+
+      /* Remove hover requirement (for mobile tap) */
+      .wrap-nav-item:hover>.dropdown-items {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-content"></div>
+
+  <!-- HEADER START-->
+  <div class="main_wrapper sign-up-header">
+    <div class="main_menu_wrapper header-color">
+      <!-- main_menu_navbar start -->
+      <div class="main_menu_navbar" style="margin-top: -55px">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-4 col-lg-2 col-6">
+              <!-- Brand/logo -->
+              <a class="navbar-brand" href="index.html">
+                <img loading="lazy" src="images/dds_logo_at_nav_bar_optimized.webp" alt="" />
+              </a>
+            </div>
+            <div class="col-xl-3 col-lg-2 col-6 d-block d-lg-none">
+              <div class="navbar-toggler" data-toggle="collapse" role="term" data-target="#sidebar"
+                aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <!--just add these span here-->
+                <!-- <i class="fas fa-bars"></i> -->
+                <ul class="toggle-main-wrapper">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-8 col-lg-10 d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
+              <nav class="navbar navbar-expand-sm d-block">
+                <ul class="navbar-nav">
+                  <li class="nav-item p-rel wrap-nav-item">
+                    <a href="index.html" class="nav-link"> Home </a>
+                  </li>
+
+                  <li class="nav-item p-rel wrap-nav-item">
+                    <a href="about-us.html" class="nav-link"> about-us </a>
+                  </li>
+
+                  <li class="nav-item p-rel wrap-nav-item">
+                    <a href="javascript:;" class="nav-link">Our Project <i class="fas fa-caret-down"></i></a>
+
+                    <ul class="dropdown-items">
+                      <li class="p-rel">
+                        <a href="javascript:;">Residence List</a>
+
+                        <ul class="sub-dropdown dropdown-items">
+                          <li><a href="ghanwat-accord.html">Ghanwat Accord</a></li>
+                          <li><a href="DEM-phoenix.html">DEM Phoenix</a></li>
+                          <li><a href="skypark-residence.html">Skypark Residence</a></li>
+                          <li><a href="mauli-krupa.html">Mauli Krupa</a></li>
+                          <li><a href="sai-radha.html">Sai Radha</a></li>
+                          <li><a href="vivan.html">Vivan</a></li>
+                          <li><a href="shiv-palace.html">Shiv Palace</a></li>
+                          <li><a href="ASTRUM.html">ASTRUM</a></li>
+                          <li><a href="royal-pristo.html">Royal Pristo</a></li>
+                          <li><a href="vijay-sadan.html">Vijay Sadan</a></li>
+                          <li><a href="divum.html">Divum</a></li>
+                          <li><a href="godrej-bliss.html">Godrej Bliss</a></li>
+                          <li><a href="westcenter.html">Westcenter</a></li>
+                          <li><a href="omkar-alta-monte.html">Omkar Alta Monte</a></li>
+                          <li><a href="paton-tower.html">Paton Tower</a></li>
+                          <li><a href="rock-highland.html">Rock Highland</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item wrap-nav-item">
+                    <a href="blogs.html" class="nav-link"> blogs </a>
+                  </li>
+
+                  <li class="nav-item wrap-nav-item">
+                    <a href="contact-form.html" class="nav-link"> contact </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="tel:+919876543210" class="call-btn">
+                      <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile_menu_main start -->
+
+  <!-- mobile_menu_main end -->
+
+  <!-- sidebar start -->
+  <div id="sidebar">
+    <div class="sidebar_logo">
+      <a href="index.html"><img loading="lazy" src="images/dds_logo_at_nav_bar_optimized.webp" alt="" /></a>
+    </div>
+    <div id="cssmenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About-us</a></li>
+        <li class="has-sub">
+          <a href="javascript:;">Our Project</a>
+          <ul class="sub-dropdown dropdown-items">
+            <li><a href="ghanwat-accord.html">Ghanwat Accord</a></li>
+            <li><a href="DEM-phoenix.html">DEM Phoenix</a></li>
+            <li><a href="skypark-residence.html">Skypark Residence</a></li>
+            <li><a href="mauli-krupa.html">Mauli Krupa</a></li>
+            <li><a href="sai-radha.html">Sai Radha</a></li>
+            <li><a href="vivan.html">Vivan</a></li>
+            <li><a href="shiv-palace.html">Shiv Palace</a></li>
+            <li><a href="ASTRUM.html">ASTRUM</a></li>
+            <li><a href="royal-pristo.html">Royal Pristo</a></li>
+            <li><a href="vijay-sadan.html">Vijay Sadan</a></li>
+            <li><a href="divum.html">Divum</a></li>
+            <li><a href="godrej-bliss.html">Godrej Bliss</a></li>
+            <li><a href="westcenter.html">Westcenter</a></li>
+            <li><a href="omkar-alta-monte.html">Omkar Alta Monte</a></li>
+            <li><a href="paton-tower.html">Paton Tower</a></li>
+            <li><a href="rock-highland.html">Rock Highland</a></li>
+          </ul>
+        </li>
+        <li><a href="contact-form.html">Contact</a></li>
+
+        <li><a href="contact-form.html">Contact</a></li>
+        <li class="m-social-icons">
+          <span><a href="https://www.facebook.com/reel/1161662209172424"><i class="fab fa-facebook-f"
+                style="padding-top: 30%"></i></a></span>
+          <!-- <span><i class="fab fa-twitter"></i></span>
+                    <span><i class="fab fa-linkedin-in"></i></span> -->
+          <span><a href="https://www.instagram.com/realtydds/"><i class="fab fa-instagram"
+                style="padding-top: 30%"></i></a></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- sidebar end -->
+
+  <!--HEADER END-->
+  <!-- single banner start -->
+  <div class="hs-banner-wrapper" style="position: relative; color: white">
+    <div class="banner-image">
+      <img loading="lazy" src="images/project-banner.webp" alt="Banner"
+        style="width: 100%; height: 500px; object-fit: cover" />
+    </div>
+    <!-- Overlay Text on left -->
+    <div class="banner-text" style="
+          position: absolute;
+          top: 50%;
+          left: 5%;
+          transform: translateY(-50%);
+          text-align: left;
+        ">
+      <h1 style="font-size: 48px; font-weight: bold; margin: 0">
+        Projects for Sale...
+      </h1>
+      <p style="font-size: 24px; margin-top: 10px">Sai Radha</p>
+    </div>
+  </div>
+  <!-- single banner end -->
+
+  <!-- single banner end -->
+  <div class="hs-blog-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- Left: Content -->
+        <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+          <div class="hs-blog-content">
+            <h3><a href="">Sai Radha</a></h3>
+
+            <div class="pt-20">
+              <a href="" class="text-color">
+                <span><i class="fas fa-map-marker-alt text-color"></i></span>
+                Julius Wadi CHS Ltd., Jay Prakash Nagar, Road No 5, Goregaon
+                East, Mumbai - 400063
+              </a>
+            </div>
+
+            <p class="pt-20" style="color: black">
+              Sai Radha offers premium residential apartments that redefine
+              urban living with elegance, comfort, and modern design. Nestled
+              in the heart of Goregaon East on Aarey Road, the project is
+              thoughtfully crafted to balance contemporary lifestyles with
+              natural greenery. With excellent connectivity to schools,
+              hospitals, shopping hubs, and business districts, Sai Radha is
+              the perfect blend of convenience and tranquility.
+            </p>
+
+            <div id="hs-list-items">
+              <ul>
+                <li><a href="">Premium residences with modern layouts</a></li>
+                <li>
+                  <a href="">Elegant architecture with natural surroundings</a>
+                </li>
+                <li>
+                  <a href="">Prime location with excellent connectivity</a>
+                </li>
+                <li>
+                  <a href="">Lifestyle amenities for leisure and fitness</a>
+                </li>
+              </ul>
+              <ul>
+                <li><a href="">Clubhouse and landscaped gardens</a></li>
+                <li><a href="">Elevators and ample parking facilities</a></li>
+                <li><a href="">24x7 Security & Power Backup</a></li>
+              </ul>
+            </div>
+
+            <p class="pt-20" style="color: black">
+              The development is enriched with lifestyle features such as a
+              grand entrance lobby, landscaped gardens, children’s play area,
+              clubhouse, and a well-equipped fitness zone. Designed to offer
+              both privacy and community living, Sai Radha ensures that
+              residents enjoy peace of mind while staying connected to the
+              vibrant city life. With a commitment to trust, transparency, and
+              quality, Sai Radha Goregaon East stands as a proud symbol of
+              modern living in Mumbai.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Image -->
+        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
+          <div class="hs-blog-image text-center">
+            <img loading="lazy" src="images/project05.webp" alt="Sai Radha Goregaon East" style="
+                  width: 100%;
+                  max-width: 550px;
+                  height: 500px;
+                  object-fit: cover;
+                  border-radius: 12px;
+                  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+                " />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section Start -->
+  <div class="hs-servicer-sec">
+    <h4 class="section-title" style="margin-top: 30px">Amenities</h4>
+    <ul class="services-list row">
+      <li class="service-item">
+        <span>
+          <img loading="lazy" src="images/icons8-garden-100.webp" alt="Podium Garden" />
+        </span>
+        <h5>Podium Garden</h5>
+      </li>
+      <li class="service-item">
+        <span>
+          <img loading="lazy" src="images/icons8-gaming-hand-100.webp" alt="Gaming Zone" />
+        </span>
+        <h5>Gaming Zone</h5>
+      </li>
+      <li class="service-item">
+        <span>
+          <img loading="lazy" src="images/icons8-reception-100.webp" alt="Entrance Lobby" />
+        </span>
+        <h5>Entrance Lobby</h5>
+      </li>
+      <li class="service-item">
+        <span>
+          <img loading="lazy" src="images/icons8-meditation-100.webp" alt="Yoga Meditation" />
+        </span>
+        <h5>Yoga/Meditation</h5>
+      </li>
+      <li class="service-item">
+        <span>
+          <img loading="lazy" src="images/icons8-running-track-96.webp" alt="Jogging Track" />
+        </span>
+        <h5>Jogging Track</h5>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Services Section End -->
+  <div class="hs-pricing-table page-content p-30 text-center">
+    <h4 class="section-title mb-5">Floor Map</h4>
+    <div class="row justify-content-center">
+      <!-- 2-BHK Layout -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card shadow-sm border-0 rounded-3 h-100">
+          <h5 class="card-title pt-3">2-BHK LAYOUT</h5>
+          <img loading="lazy" src="images/project-5.webp" class="card-img-top p-3 rounded-3" alt="2-BHK Layout" />
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              <li><strong>RAC - 623 Sq.Ft.</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1-BHK Layout -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card shadow-sm border-0 rounded-3 h-100">
+          <h5 class="card-title pt-3">1-BHK LAYOUT</h5>
+          <img loading="lazy" src="images/project-5 (1).webp" class="card-img-top p-3 rounded-3" alt="1-BHK Layout" />
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              <li><strong>RAC - 380 Sq.Ft.</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hs-map-sec">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+        <h4 class="section-title"><a>Site Location</a></h4>
+
+        <!-- Google Map -->
+        <div style="width: 100%; height: 500px">
+          <div class="with-amp">
+            <div class="map-view">
+              <div class="google-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7154247692515!2d72.85184157525245!3d19.163930132058752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7ad8e412391%3A0x5ee7a73ec70bcfdf!2sJulius%20Wadi%20Co-operative%20Housing%20Society!5e0!3m2!1sen!2sin!4v1757915167084!5m2!1sen!2sin"
+                  width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="hs-box mt-4">
+          <div class="row">
+            <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center mb-3">
+              <span class="me-3"><i class="fas fa-phone-alt"></i></span>
+              <div class="f-right">
+                <a href="#">Toll free</a>
+                <h6><a href="tel:+91 9854898541">+91 9854898541</a></h6>
+                <h6><a href="tel:+91 868020293">+91 868020293</a></h6>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center mb-3">
+              <span class="me-3"><i class="far fa-envelope"></i></span>
+              <div class="f-right n-border">
+                <a href="#">Email Us</a>
+                <h6>
+                  <a href="enquiry@maulisaidevelopers.com">enquiry@maulisaidevelopers.com</a>
+                </h6>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 d-flex align-items-center mb-3">
+              <div class="f-right n-border" style="text-align: center">
+                <!-- <h4 href="#" style="color:white; text-decoration:none;">MAHARERA</h4> -->
+                <!-- <img loading="lazy" src="images/rera_qr/mauli_pride_qr.png" alt="RERA Logo" 
+           style="width:100px; height:auto; border-radius:5px;" class="mb-2"> -->
+                <h6 style="color: white">MAHARERA No. P51800045395</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12"></div>
+    </div>
+  </div>
+
+  <!-- page slider -->
+  <!-- ✅ Most Popular Hotels Slider -->
+  <div class="hs-slider">
+    <div class="slider-wrapper slider1-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="section-title mb-8"><a>Our Popular Residence</a></h4>
+
+            <!-- Owl Carousel -->
+            <div class="owl-carousel owl-theme">
+              <!-- Item 1 -->
+              <div class="item">
+                <div class="project-card">
+                  <div class="img-sec p-rel">
+                    <div class="hover-img p-rel">
+                      <a href="DEM-phoenix.html">
+                        <img src="images/most_Popular_properties_optimized.webp" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slider-content">
+                    <h5><a href="DEM-phoenix.html">DEM Phoenix</a></h5>
+                    <span class="clr-text"><i class="fas fa-map-marker-alt"></i> 50 Vijay Nagar,
+                      Indore, INDIA</span>
+                    <a href="DEM-phoenix.html" class="view-site-btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="item">
+                <div class="project-card">
+                  <div class="img-sec p-rel">
+                    <div class="hover-img p-rel">
+                      <a href="mauli-krupa.html"><img src="images/most_Popular_properties_1_optimized.webp"
+                          alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="slider-content">
+                    <h5><a href="mauli-krupa.html">Mauli Pride</a></h5>
+                    <span class="clr-text"><i class="fas fa-map-marker-alt"></i> Malad (E)</span>
+                    <a href="mauli-krupa.html" class="view-site-btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="project-card">
+                  <div class="img-sec p-rel">
+                    <div class="hover-img p-rel">
+                      <a href="ghanwat-accord.html"><img src="images/Ghanwat__optimized.webp" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="slider-content">
+                    <h5><a href="ghanwat-accord.html">Ghanwat Accord</a></h5>
+                    <span class="clr-text"><i class="fas fa-map-marker-alt"></i> Malad (E),</span>
+                    <a href="ghanwat-accord.html" class="view-site-btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="project-card">
+                  <div class="img-sec p-rel">
+                    <div class="hover-img p-rel">
+                      <a href="skypark-residence.html"><img src="images/most_Popular_properties_2_optimized.webp"
+                          alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="slider-content">
+                    <h5><a href="skypark-residence.html">SkyPark Residence</a></h5>
+                    <span class="clr-text"><i class="fas fa-map-marker-alt"></i> GOREGAON -
+                      EAST</span>
+                    <a href="skypark-residence.html" class="view-site-btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="project-card">
+                  <div class="img-sec p-rel">
+                    <div class="hover-img p-rel">
+                      <a href="sai-radha.html"><img src="images/most_Popular_properties_4_optimized.webp" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="slider-content">
+                    <h5><a href="sai-radha.html">Sai Radha</a></h5>
+                    <span class="clr-text"><i class="fas fa-map-marker-alt"></i> Goregaon East,</span>
+                    <a href="sai-radha.html" class="view-site-btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Repeat for other items... -->
+            </div>
+            <!-- /.owl-carousel -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-main-wrapper" style="background-color: #fafafa; color: #ffffff; padding: 50px 0">
+    <div class="container">
+      <div class="row">
+        <!-- Logo & About -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img loading="lazy" src="images/dds logo at nav bar.png" alt="Logo"
+                style="max-width: 160px; margin-left:50px;" />
+            </a>
+            <p style="margin-top: 15px; color: #000000">
+              Helping you discover the best homes, commercial spaces, and
+              investments with trust and transparency.
+            </p>
+            <ul class="list-inline mt-3">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/reel/1161662209172424"><i class="fab fa-facebook-f"
+                    style="color: #000000"></i></a>
+              </li>
+              <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter" style="color:#ffffff;"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in" style="color:#ffffff;"></i></a></li> -->
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/realtydds/"><i class="fab fa-instagram"
+                    style="color: #000000"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <h4 style="color: #000000; margin-bottom: 20px">Useful Links</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index-01.html" style="color: #000000; text-decoration: none"><i class="fa fa-caret-right"></i>
+                <strong>Home</strong></a>
+            </li>
+            <li>
+              <a href="about-us.html" style="color: #000000; text-decoration: none"><i class="fa fa-caret-right"></i>
+                <strong>About Us</strong></a>
+            </li>
+            <li>
+              <a href="contact-form.html" style="color: #000000; text-decoration: none"><i
+                  class="fa fa-caret-right"></i><strong>Contact-Us</strong></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Instagram Feed -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <h4 style="color: #000000; margin-bottom: 20px">Instagram Feed</h4>
+          <!-- New Row for 3 images -->
+          <div class="row g-2 mt-2">
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-1.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-2.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-3.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-4.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-5.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+            <div class="col-4">
+              <a href="https://www.instagram.com/realtydds/"><img loading="lazy" src="images/insta-6.jpg" alt=""
+                  class="img-fluid rounded" /></a>
+            </div>
+          </div>
+
+          <a href="#" style="display: block;margin-top: 10px;color: #000000;">View All</a>
+        </div>
+        <!-- Contact Info -->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <h4 style="color: #000000; margin-bottom: 20px">Contact Info</h4>
+          <ul class="list-unstyled" style="color: #000000">
+            <li>
+              <i class="fa fa-map-marker-alt pl-2" style="padding-right: 2%"></i>Distinct Digital Solution, SRA Omkar
+              Maulli, A-108, Malad,
+              Triveni Nagar, Malad East
+            </li>
+            <li>
+              <i class="fa fa-phone" style="padding-right: 2%"></i> +91 98765
+              43210
+            </li>
+            <li>
+              <i class="fa fa-envelope" style="padding-right: 2%"></i>distinctdigitalads1@gmail.com
+            </li>
+            <li>
+              <i class="fa fa-globe" style="padding-right: 2%"></i>https://distinctdigitalsolution.com/
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================= Footer End ================= -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/shortcode.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/functions.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBctr8WYTfFDi_oGbPEolSDzn4VZaAKVK0&amp;callback=googleMap"></script>
+</body>
+
+</html>

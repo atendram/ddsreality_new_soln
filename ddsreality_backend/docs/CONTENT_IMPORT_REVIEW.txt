@@ -1,0 +1,20 @@
+Imported from repository commit 858584ce0ddcf794bde001adeb7b1492c55a9cf3
+
+ghanwat-accord.html → ghanwat-accord: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+DEM-phoenix.html → dem-phoenix: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+skypark-residence.html → skypark-residence: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+mauli-krupa.html → mauli-krupa: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+sai-radha.html → sai-radha: 2 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+vivan.html → vivan: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+shiv-palace.html → shiv-palace: 1 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+ASTRUM.html → astrum: 0 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+royal-pristo.html → royal-pristo: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+vijay-sadan.html → vijay-sadan: 1 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+divum.html → divum: 1 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+godrej-bliss.html → godrej-bliss: 1 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+westcenter.html → westcenter: 2 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+omkar-alta-monte.html → omkar-alta-monte: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+paton-tower.html → paton-tower: 2 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+rock-highland.html → rock-highland: 3 floor plans; imported as draft. Verify all facts, amenities, RERA and image assignment. Map and price intentionally left empty: copied maps point to agency office and prices require confirmation.
+
+DDS Digital has editable starter copy only: no agency source website was present. Upload its correct logo and content. No fabricated team members, reviews, prices or results. Review the privacy text and contact details before launch. Facebook source is a reel link; replace with your page URL if preferred.

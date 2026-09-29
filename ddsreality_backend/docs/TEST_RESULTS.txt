@@ -1,0 +1,92 @@
+DDS CMS — .NET 8 verification
+
+Target: net8.0. EF Core SQL Server: 8.0.24.
+SDK used for runtime verification and Release publish: .NET 8.0.425.
+Application and Razor views compile with zero warnings/errors.
+Release publish succeeded.
+HTTP integration: ASP.NET in-memory test server with isolated SQLite; not the user SQL Server.
+
+PASS: Anonymous admin redirected
+PASS: GET /
+PASS: Seeded homepage rendered
+PASS: No legacy jQuery payload
+PASS: GET /dds
+PASS: GET /projects
+PASS: GET /blog
+PASS: GET /about
+PASS: GET /contact
+PASS: GET /privacy
+PASS: GET /account/login
+PASS: CSRF token exists
+PASS: Login succeeds and blocks external redirect
+PASS: GET /admin
+PASS: GET /admin?site=dds
+PASS: GET /admin/settings
+PASS: GET /admin/settings?site=dds
+PASS: GET /admin/content?kind=Project
+PASS: GET /admin/edit?kind=Project
+PASS: GET /admin/content?kind=Banner
+PASS: GET /admin/edit?kind=Banner
+PASS: GET /admin/content?kind=Blog
+PASS: GET /admin/edit?kind=Blog
+PASS: GET /admin/content?kind=Team
+PASS: GET /admin/edit?kind=Team
+PASS: GET /admin/content?kind=Testimonial
+PASS: GET /admin/edit?kind=Testimonial
+PASS: GET /admin/content?kind=Reel
+PASS: GET /admin/edit?kind=Reel
+PASS: GET /admin/content?kind=Service
+PASS: GET /admin/edit?kind=Service
+PASS: GET /admin/enquiries
+PASS: GET /admin/audit
+PASS: GET /account/password
+PASS: Mutation without CSRF rejected
+PASS: GET /admin/edit?site=realty&kind=Project
+PASS: CSRF token exists
+PASS: Save draft with optional empty fields
+PASS: Draft hidden publicly
+PASS: GET /admin/preview/25
+PASS: Description HTML is encoded
+PASS: GET /admin/edit?id=25
+PASS: CSRF token exists
+PASS: Stale edit blocked
+PASS: GET /admin/content
+PASS: CSRF token exists
+PASS: Publish action succeeds
+PASS: GET /projects/integration-project
+PASS: Published project fields displayed
+PASS: GET /contact
+PASS: CSRF token exists
+PASS: Enquiry submission saved
+PASS: GET /admin/enquiries
+PASS: Enquiry linked to correct project
+PASS: CSRF token exists
+PASS: Consent required server-side
+PASS: Unsafe URLs rejected
+PASS: GET /admin/edit?id=25
+PASS: Invalid image upload returned safely
+PASS: GET /admin/edit?id=25
+PASS: Fake PNG rejected by signature
+PASS: Valid image uploaded
+PASS: GET /projects/integration-project
+PASS: Floor plan appears on public detail
+PASS: GET /admin/settings?site=dds
+PASS: CSRF token exists
+PASS: Settings save with optional empty fields
+PASS: GET /dds
+PASS: DDS settings propagate to its public page
+PASS: GET /
+PASS: DDS settings do not change Realty branding
+PASS: GET /admin/content
+PASS: CSRF token exists
+PASS: Unpublish hides project
+PASS: CSRF token exists
+PASS: Delete removes project and related media records
+PASS: GET /admin
+PASS: GET /admin/edit?id=1
+PASS: GET /
+PASS: GET /projects/ghanwat-accord
+PASS: Revoked security stamp invalidates session
+SUCCESS: 81 checks passed.
+
+SQL script regenerated using the EF Core 8 application model. Not executed against the user SQL Server. Live hosting, browser-rendered layout and live load speed remain unverified.

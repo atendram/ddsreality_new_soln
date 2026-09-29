@@ -1,0 +1,2 @@
+@model PublicPage
+<section class="page-banner"><div class="container"><span class="eyebrow">ABOUT @Model.Settings.Name</span><h1>@Model.Settings.AboutTitle</h1></div></section><section class="container section about-grid">@if(Model.Settings.AboutImage!=""){<img class="detail-cover" src="@Model.Settings.AboutImage" alt="@Model.Settings.AboutTitle" width="700" height="600"/>}<div class="prose">@Model.Settings.AboutBody</div></section><partial name="_People" model="Model"/>

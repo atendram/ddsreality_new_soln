@@ -1,0 +1,618 @@
+{
+  "Sites": [
+    {
+      "SiteId": "realty",
+      "Name": "DDS Realty",
+      "Tagline": "Your next chapter starts here.",
+      "LogoPath": "/images/dds-logo-at-nav-bar-optimized.webp",
+      "AboutTitle": "Local knowledge. Personal guidance.",
+      "AboutBody": "We are here to make real estate easy and trustworthy for everyone. Our platform helps people discover homes, apartments, commercial spaces, and land with comfort and confidence. Whether you are buying your first home, upgrading to something bigger, or looking for an investment, we offer options that are simple, clear, and reliable. Our focus is on honesty, customer satisfaction, and building lasting connections. With the right mix of technology and personal support, we guide you every step of the way.",
+      "AboutImage": "/images/about-usour-vision-600x400.webp",
+      "Address": "Distinct Digital Solution, SRA Omkar Maulli, A-108, Triveni Nagar, Malad East, Mumbai, Maharashtra 400097",
+      "Phone": "+91 8591623205",
+      "Email": "distinctdigitalads1@gmail.com",
+      "WhatsApp": "918591623205",
+      "Instagram": "https://www.instagram.com/realtydds/",
+      "Facebook": "https://www.facebook.com/reel/1161662209172424",
+      "PrivacyText": "When you submit an enquiry, we collect the name, phone number, email address (if supplied), message and project interest you provide. We use this information to respond to your request and arrange follow-up. Authorised DDS administrators can access enquiries. Contact us using the details on this website to request correction or deletion.\n\nAdmin sign-in uses an essential authentication cookie. The website uses an anti-forgery cookie to protect forms. Google Maps, when displayed, loads content from Google. Social and reel links open external services with their own privacy policies."
+    },
+    {
+      "SiteId": "dds",
+      "Name": "Distinct Digital Solution",
+      "Tagline": "Make your next move count.",
+      "AboutTitle": "A digital partner for your business.",
+      "AboutBody": "Distinct Digital Solution helps businesses communicate, connect and grow. Contact our team to discuss your project.",
+      "PrivacyText": "When you submit an enquiry, we collect the name, phone number, email address (if supplied), message and project interest you provide. We use this information to respond to your request and arrange follow-up. Authorised DDS administrators can access enquiries. Contact us using the details on this website to request correction or deletion.\n\nAdmin sign-in uses an essential authentication cookie. The website uses an anti-forgery cookie to protect forms. Google Maps, when displayed, loads content from Google. Social and reel links open external services with their own privacy policies.",
+      "PrimaryColor": "#102C40",
+      "AccentColor": "#E9B949",
+      "FooterText": "Let’s build your next chapter together."
+    }
+  ],
+  "Entries": [
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Ghanwat Accord",
+      "Slug": "ghanwat-accord",
+      "Body": "Ghanwat Accord brings you a thoughtfully designed collection of 1 BHK and 2 BHK residences that combine style, comfort, and smart living. Located in a prime area with excellent connectivity, these homes offer the perfect balance of convenience and tranquility. With modern features like a lounge-inspired lobby, a state-of-the-art gymnasium, and elegant lift lobbies, every detail has been created to elevate your lifestyle.\n\nResidents will benefit from high-speed elevators with advanced safety, a smart security system for complete peace of mind, and premium exterior finishes with durable cladding. Interiors are enhanced with heavy-duty sliding doors fitted with toughened glass, while rooftop amenities, landscaped spaces, and panoramic views create a serene environment to unwind. Additional comforts such as a dedicated servant room reflect the thoughtful planning behind this project.",
+      "Location": "Opposite Ghanwat Estate (Royal Pristo), Vaishey Pada, Malad East",
+      "ImagePath": "/images/project-1image.webp",
+      "AltText": "Ghanwat Accord",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Domestic & International Airports\nSchools\nAksa Beach\nWater Kingdom\nPagoda\nAarey Milk Colony\nBorivali National Park\nCinema Halls",
+      "ReraNumber": "P51800066476",
+      "SortOrder": 0,
+      "Published": false,
+      "Featured": true,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT Flat No.1 (1-BHK) - 378 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-03.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.2 (2-BHK) - 570 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-03-1-.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Typical Floor Flat No.3 (2-BHK) - 538 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-03-3-.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "DEM Phoenix",
+      "Slug": "dem-phoenix",
+      "Body": "DEM Phoenix offers 1 BHK & 2 BHK homes that are not just stylish and comfortable, but also smart. We understand the importance of connectivity and have ensured that our homes are located in an area that offers great connectivity. Our homes come with great views of serenity and open space, as well as rooftop amenities that are perfect for enjoying an unmatched lifestyle. And to top it all off, we are committed to sustainable living, so you can feel good about living in this abode.\n\nDEM Infra is formulated as a group of professionals having varied and vast experience within the real estate and infrastructure fields. Our group consists of individuals with backgrounds such as Architecture, Civil Engineering, Project Management, Finance Management, Sustainability and Real Estate Development etc.",
+      "Location": "50 Vijay Nagar, Indore, INDIA",
+      "ImagePath": "/images/project2.webp",
+      "AltText": "DEM Phoenix",
+      "Amenities": "100% Terrace Rainwater Harvesting\nEnergy Efficient Building\nSolar-powered Common Lighting\nElectric Car Charging Facility\nNo Smoking Policy",
+      "Highlights": "Kurar Metro Station - 1Km\nAirport - 11Kms\nInfinity Mall - 4Kms\nSt. Sebastians English School - 1Km\nThe Times of India - 800 Mtrs\nAnkita Hospital - 850 Mtrs\nThakur Education Hub - 3 Kms\nSwami Narayan Mandir - 800 Mtrs",
+      "ReraNumber": "P51800048376",
+      "SortOrder": 1,
+      "Published": false,
+      "Featured": true,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT Flat No.1 (1-BHK) - 378 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/image-optimized.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.2 (2-BHK) - 570 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/image-1-optimized.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.3 (2-BHK) - 538 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/image-3-optimized.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Skypark Residence",
+      "Slug": "skypark-residence",
+      "Body": "Skypark Residence introduces elegant 1 BHK & 2 BHK homes designed to be stylish, comfortable, and smart. Perfectly positioned in a well-connected location, these homes offer effortless access to the city while surrounding you with serenity and open spaces. With a lounge-themed lobby area, a state-of-the-art gymnasium, and a designer lift lobby, every corner reflects modern sophistication.\n\nResidents will enjoy high-speed elevators with smart security in every unit, premium Vox cladding on the exteriors, and interiors enhanced with Saint-Gobain toughened glass sliding doors. A dedicated servant room, rooftop amenities, and panoramic views complete the lifestyle that Skypark Residence offers — modern, elegant, and sustainable.",
+      "Location": "GOREGAON - EAST",
+      "ImagePath": "/images/project-2-img.webp",
+      "AltText": "Skypark Residence",
+      "Amenities": "Goregaon Station\nOberoi Mall\nWestern Express Highway &Aarey Road Metro Station\nBombay Exhibition Centre\nSanjeevani Hospital",
+      "Highlights": "Signature Lobby\nBranded Electrical Switches\nHi-tech Modernized Gym\nWash basin Counter\nAluminum sliding windows\nConcealed Plumbing astral make\nBranded C P Fittings\nLarge car stack parking",
+      "ReraNumber": "P51800055829",
+      "SortOrder": 2,
+      "Published": false,
+      "Featured": true,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT Flat No.1 (1-BHK) - 378 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-02-img.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.2 (2-BHK) - 570 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-02-img-2-.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.3 (2-BHK) - 538 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-02-img-3-.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Mauli Krupa",
+      "Slug": "mauli-krupa",
+      "Body": "Mauli Pride – 1B, 1D, 1E offers premium residential apartments that blend modern living with comfort and elegance. Located in a prime area with excellent connectivity, the project features thoughtfully planned layouts and a variety of options including 1BHK, 2BHK, and 3BHK homes. Each residence is designed to provide maximum space, functionality, and a sense of pride in ownership.\n\nThe development is enriched with lifestyle amenities such as a landscaped garden, children’s play area, fitness center, clubhouse, parking facilities, 24x7 security, power backup, and elevators. With its proximity to schools, colleges, hospitals, shopping centers, and daily conveniences, Mauli Pride ensures residents enjoy both urban advantages and peaceful surroundings, all backed by the developer’s trust, transparency, and commitment to quality.",
+      "Location": "Mauli Pride, Kura Village, Malad (E)",
+      "ImagePath": "/images/our-project.webp",
+      "AltText": "Mauli Krupa",
+      "Amenities": "Garden\nChildren Play Area\nCafeteria\nMeditation Center\nMauli Aarogyam Hospital",
+      "Highlights": "Premium residential apartments\nModern amenities with elegant design\nPrime location with excellent connectivity\nSpacious living with thoughtful layouts\n24x7 Security\nPower Backup\nElevators\nClubhouse",
+      "ReraNumber": "P51800001199",
+      "SortOrder": 3,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT RAC - 623 Sq.Ft.",
+          "ImagePath": "/images/project-4-floor-map.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT RAC - 392 Sq.Ft.",
+          "ImagePath": "/images/project-4-2-floor-map.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT RCA - 380 Sq.Ft.",
+          "ImagePath": "/images/project-4-3-floor-map.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Sai Radha",
+      "Slug": "sai-radha",
+      "Body": "Sai Radha offers premium residential apartments that redefine urban living with elegance, comfort, and modern design. Nestled in the heart of Goregaon East on Aarey Road, the project is thoughtfully crafted to balance contemporary lifestyles with natural greenery. With excellent connectivity to schools, hospitals, shopping hubs, and business districts, Sai Radha is the perfect blend of convenience and tranquility.\n\nThe development is enriched with lifestyle features such as a grand entrance lobby, landscaped gardens, children’s play area, clubhouse, and a well-equipped fitness zone. Designed to offer both privacy and community living, Sai Radha ensures that residents enjoy peace of mind while staying connected to the vibrant city life. With a commitment to trust, transparency, and quality, Sai Radha Goregaon East stands as a proud symbol of modern living in Mumbai.",
+      "Location": "Julius Wadi CHS Ltd., Jay Prakash Nagar, Road No 5, Goregaon East, Mumbai - 400063",
+      "ImagePath": "/images/project05.webp",
+      "AltText": "Sai Radha",
+      "Amenities": "Podium Garden\nGaming Zone\nEntrance Lobby\nYoga/Meditation\nJogging Track",
+      "Highlights": "Premium residences with modern layouts\nElegant architecture with natural surroundings\nPrime location with excellent connectivity\nLifestyle amenities for leisure and fitness\nClubhouse and landscaped gardens\nElevators and ample parking facilities\n24x7 Security & Power Backup",
+      "ReraNumber": "P51800045395",
+      "SortOrder": 4,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT RAC - 623 Sq.Ft.",
+          "ImagePath": "/images/project-5.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT RAC - 380 Sq.Ft.",
+          "ImagePath": "/images/project-5-1-.webp",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Vivan",
+      "Slug": "vivan",
+      "Body": "Vivan is a thoughtfully designed residential development that blends modern comfort with the warmth of community living. Located in Oshiwara District Centre, Goregaon West – often referred to as the \"Next BKC\" – the project offers premium 1BHK and 2BHK residences with well-planned layouts, elegant finishes, and sustainable features. Designed for modern families, Vivan provides the perfect balance between privacy and a connected lifestyle.\n\nEvery home at Vivan is built with superior specifications, including premium vitrified flooring, granite kitchen platforms with stainless steel sinks, full-height French windows for natural light and ventilation, branded sanitary fittings, waterproof doors, and video door phone intercoms for enhanced safety. The project also emphasizes eco-friendly living through water recycling, organic waste management, and provisions for piped gas connections. With its strategic location, Vivan offers unmatched connectivity. Ram Mandir Station is just a minute away, while malls, schools, hospitals, and business hubs like Inorbit Mall, Infiniti Mall, Goregaon Sports Club, Vibgyor International School, and the International Airport are all within easy reach. This makes Vivan not only a comfortable home but also a smart investment in one of Mumbai’s most promising hubs.mbai.",
+      "Location": "Plot No. CTS No 92 to 97, Ram Mandir Road, Oshiwara District Centre, Goregaon (W), Mumbai – 400104",
+      "ImagePath": "/images/project06.webp",
+      "AltText": "Vivan",
+      "Amenities": "Podium Garden\nGaming Zone\nEntrance Lobby\nYoga/Meditation\nJogging Track",
+      "Highlights": "Premium 1BHK & 2BHK residences with smart layouts\nDesigned for community living with modern comforts\nPrime location in ODC, Goregaon (W) with excellent connectivity\nLifestyle amenities for leisure, fitness, and social bonding\n24x7 security, fire-safety systems & DG backup for common areas\nEV charging provisions and 2-level basement parking\nSustainable features like water recycling & organic waste management",
+      "ReraNumber": "P51800035019",
+      "SortOrder": 5,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT Flat No.1 (1-BHK) – 378 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-06.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT Flat No.2 (2-BHK) – 570 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-06-2-.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Typical Floor Flat No.2 (2-BHK) – 538 SQ.FT. Rera Carpet",
+          "ImagePath": "/images/project-06-3-.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Shiv Palace",
+      "Slug": "shiv-palace",
+      "Body": "Shiv Palace is a place of joy. It stands as a palace of luxury and a mark of pride. Shiv Palace redefines what a home, tower, and address can be, introducing you to a new world of luxury and lifestyle you’ve never seen before. Surrounded by conveniences and filled with top amenities, Shiv Palace symbolizes peace, prosperity, and purity. The moment you enter, you’re captivated by its charm. This feeling continues into your home and reaches its peak when you step onto the roof to enjoy the luxurious view. Some places are best lived rather than described. Shiv Palace is among them. Come and experience the unbelievable.",
+      "Location": "50 Vijay Nagar, Indore, INDIA",
+      "ImagePath": "/images/shiv-palace.webp",
+      "AltText": "Shiv Palace",
+      "Amenities": "Connectivity\nEduction\nShopping\nHospital\nRestaurant",
+      "Highlights": "Elegantly designed 1 & 2 BHK apartments\nJodi flat option available\nVitrified flooring in all the rooms\nProvision for gas pipeline\nC.P. fittings of reputed brand\nConcealed plumbing\nCCTV surveillance in lift & common areas\nFire fighting system",
+      "ReraNumber": "P51800056318",
+      "SortOrder": 6,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Typical Floor Map",
+          "ImagePath": "/images/floor-map.webp",
+          "SortOrder": 0
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "ASTRUM",
+      "Slug": "astrum",
+      "Body": "It doesn’t get faster than Mumbai. Here, even dreams are chased at an in credible pace. And amidst all the buzz, a home becomes the centre-point of our lives, the safe axis on which our world spins. The only hope? That the place be convenient for lives to thrive and dreams to flourish. For the magic of the city and the calm of nature to blossom side by side.",
+      "Location": "50 Vijay Nagar, Indore, INDIA",
+      "ImagePath": "/images/project-8-img0-with-bgc.webp",
+      "AltText": "ASTRUM",
+      "Amenities": "Connectivity\nEduction\nShopping\nHospital\nRestaurant",
+      "Highlights": "High Speed Elevators\nGrand Entrance Lobby\nSolar Heating Panels\nPremium Fixtures and Sanitary Fittings\nSewerage Treatment Plant\nRain Water Harvesting Tank\nDG Power Backup",
+      "ReraNumber": "P51800029353",
+      "SortOrder": 7,
+      "Published": false,
+      "Featured": false,
+      "Media": []
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Royal Pristo",
+      "Slug": "royal-pristo",
+      "Body": "Welcoming all those who have achieved their aspired dreams, to move-up to Superhit Homes that define the next level. Well-planned, modern homes with Sanjay Gandhi National Park Views on one side that upgrade your life. And your future.\n\nIn today’s fast-paced world where one strives to find personal space & time, Royal Pristo ensures that recreations & relaxations become a way of life. The very reason why, this Super Stylish community living showcases fitness zones, green lawns, sit-outs, kids' play area, and more. Royal Pristo is conveniently located at Siddheshwar Nagar – A future-ready locale of Malad East with fast & easy connectivity to every part of Mumbai city via road, rail & metro ways. It is, not to mention, surrounded with a host of conveniences...from educational institutions to entertainment venues to markets to fine dines… you name it.",
+      "Location": "Opposite Ghanwat Estate (Royal Pristo), Vaishey Pada, Malad East",
+      "ImagePath": "/images/project-09-image.webp",
+      "AltText": "Royal Pristo",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "3 Acre Community with 2 Majestic Towers\nGrand Entrance Gate & Spectacular Welcome Lobbies\nHomes with Sanjay Gandhi National Park Views on one side\nLandscaped Recreations, Lifestyle Leisures & High-end Fitness Zone\nAmple Car Parks",
+      "ReraNumber": "P51800019529",
+      "SortOrder": 8,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2-BHK LAYOUT",
+          "ImagePath": "/images/project-9-image.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT",
+          "ImagePath": "/images/project-9-1image.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1-BHK LAYOUT",
+          "ImagePath": "/images/project-9-2image.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Vijay Sadan",
+      "Slug": "vijay-sadan",
+      "Body": "Vijay Sadan offers a refined, modern living experience with a striking new-age elevation. The project includes a grand 21-feet double-height lobby, a fully equipped hi-tech gym, and a peaceful terrace swimming pool. Residents also enjoy large high-speed lifts, service rooms on every landing floor, and premium aluminium sliding windows that bring in abundant natural light.\n\nEach home at Vijay Sadan uses high-quality materials, including Astral concealed plumbing, branded CP fittings, electrical switches, and vitrified/ceramic bathroom tiles. Features like a stylish washbasin counter, a functional kitchen with a stainless steel sink, and laminated flush doors add to the comfort. With strong security surveillance, large car stack parking, and essential amenities such as a water purifier, Vijay Sadan offers a perfect blend of convenience and elegance.",
+      "Location": "Plot No. 30, Vijay Sadan Jayprakash Nagar, Road No. 3, Goregaon East, Mumbai 400063.",
+      "ImagePath": "/images/project-10.webp",
+      "AltText": "Vijay Sadan",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Double Height Lobby21 Feet.\nA Modern Design Luxury Lounge theme Lobby.\nModern Wi-Fi Connective Lounge Area with Ample GuestArea\nWideDouble Height Window\nWeatherProof Canopy at the EntranceLobby",
+      "ReraNumber": "P51800019529",
+      "SortOrder": 9,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Floor plan 1",
+          "ImagePath": "/images/project-10-floormap.webp",
+          "SortOrder": 0
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Divum",
+      "Slug": "divum",
+      "Body": "In the recent past, Goregaon East has emerged as one of the most-coveted residential locations in the city. Whilst it previously made headlines because of its verdant green surroundings - the Sanjay Gandhi National Park, Film City and Aarey Colony, it has, of late become a phenomenal residential, entertainment, business, leisure & lifetsyle destination. This dynamic combination has made it one of the most popular suburbs of our eclectic city\n\nAlso, Goregaon is one of the best connected and fastest growing suburbs of Mumbai, with easy & speedy access to every part of the city. In close proximity to Divum lie the Goregaon Railway Station, Dindoshi Bus Depot, and the Upcoming metro line connecting the Suburbs & South Mumbai. The Western Express Highway, and the proposed Goregaon-Mulund Link Road are a mere moments away from the developments.",
+      "Location": "Divum, Pimpripada Road, Near Swapnalok Tower, Adjacent to Riddhi Gardens, Off Film City Road, Mumbai - 400097",
+      "ImagePath": "/images/project-11-image.webp",
+      "AltText": "Divum",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Luxurious 2 Bed Residences.\nMajestic G + 44*Storeys Landmark.\nFloor-to-ceiling windows in the living room & bedroom.\nFully-fitted Homes with Air-conditioners.\n6 Level PodiumParking.",
+      "ReraNumber": "P51800018784",
+      "SortOrder": 10,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Floor plan 1",
+          "ImagePath": "/images/project-11-floor-map.webp",
+          "SortOrder": 0
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Godrej bliss",
+      "Slug": "godrej-bliss",
+      "Body": "The Godrej story began in 1897, with the manufacturing of locks. Since then we have set several benchmarks. From a state-of-the-art manufacturing facility in a suburb of Mumbai, we’ve reached homes, offices, industries, and the hearts of millions of people in India, and around the world. With a proud tradition of many firsts, we find ourselves at work every day, building on the foundation of trust that was laid 127 years ago.\n\nWhether you seek relaxation, quality time with friends, or space to create lasting memories with your loved ones, your future home has it all—inviting you to discover a life that enchants you from the very first glance. Elevate your lifestyle in homes designed to help you embrace a future where each day brings treasured moments of joy shared with the people who matter most.",
+      "Location": "Kandivali, Hanuman Nagar, Kandivali East, Mumbai, Maharashtra 400101",
+      "ImagePath": "/images/project-12.webp",
+      "AltText": "Godrej bliss",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Luxurious 2 Bed Residences.\nMajestic G + 44*Storeys Landmark.\nFloor-to-ceiling windows in the living room & bedroom.\nFully-fitted Homes with Air-conditioners.\n6 Level PodiumParking.",
+      "ReraNumber": "P51800019529",
+      "SortOrder": 11,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "Floor plan 1",
+          "ImagePath": "/images/project-12-floormap.webp",
+          "SortOrder": 0
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Westcenter",
+      "Slug": "westcenter",
+      "Body": "West Center redefines luxury living with meticulously planned residential, commercial and retail spaces, strategically located at the hub of growth. Its first phase, Meridian Courts, features towers rising over 46 floors within an integrated township, complemented by a lifestyle-rich rooftop podium, premium shopping spaces and multi-level parking—offering everything you need for a modern, elevated lifestyle.\n\nCrafted for those who seek elegance in every detail, West Center stands as a landmark destination where architecture meets aspiration. Thoughtfully curated amenities, seamless connectivity and a vibrant mix of residential and commercial offerings make it a space designed not just to live in—but to thrive in. From sunrise views to world-class conveniences, West Center promises an elevated lifestyle at every step.",
+      "Location": "Old Link Rd, Kandivali, Ekta Nagar, Kandivali West, Mumbai, Maharashtra 400067",
+      "ImagePath": "/images/project-13-image.webp",
+      "AltText": "Westcenter",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Vitrified flooring for living room, dining room, kitchen and all bedrooms.\nLaminated internal flush doors.\nVideo-door phone.\nBranded C.P. fittings.\nModular kitchen.",
+      "ReraNumber": "P51800007441",
+      "SortOrder": 12,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1 BHK Floor Plan",
+          "ImagePath": "/images/project-13-floormap.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2 BHK Floor Plan",
+          "ImagePath": "/images/project-13-floormap1.webp",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Omkar Alta Monte",
+      "Slug": "omkar-alta-monte",
+      "Body": "In a city where homes are getting smaller by the day, Omkar Alta Monte stands out as a rare dream for those who desire real, livable space. It is designed for people who value breathing room and want a home that supports the little joys of everyday life. These are not homes that only appear large in photographs—they feel genuinely open and airy the moment you walk in. Every corner is crafted to offer comfort, freedom, and careful planning. Omkar Alta Monte truly brings back the charm of spacious living in a fast-shrinking city.\n\nOmkar Alta Monte offers expansive 2, 3, and 4 BHK residences that cater to modern lifestyles and growing family needs. Its striking external façade, designed by the international architectural firm Callison, lends the development a distinguished global appeal. Inside, each apartment is planned thoughtfully to enhance comfort, natural light, and efficient movement. The large windows frame sweeping views of the cityscape, creating a seamless connection between your home and the outdoors. With its refined design and exceptional spatial experience, Omkar Alta Monte elevates everyday living to a premium level.",
+      "Location": "Shantaram Lake, Malad East Road, Shantaram Talao, Siddheshwar Nagar, Kokanipada, Malad East, Mumbai, Maharashtra 400097",
+      "ImagePath": "/images/project-14-image.webp",
+      "AltText": "Omkar Alta Monte",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "30+ Amenities Spread Across 1.96 L Sq.Ft.\nLargest Clubhouse of Western Suburbs,70,000 Sq.Ft.\nGrand and Majestic 5-star Lobby.\nLargest In-house Gym & Aqua Gym.\nPremium Daily Shopping Experience.",
+      "ReraNumber": "P51800007441",
+      "SortOrder": 13,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2 BHK Floor Plan",
+          "ImagePath": "/images/project-14-floor-map.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "3 BHK Floor Plan",
+          "ImagePath": "/images/project-14-floor-map1.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "5 BHK Floor Plan",
+          "ImagePath": "/images/project-14-floor-map2.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Omkar Alta Monte",
+      "Slug": "paton-tower",
+      "Body": "Paton Towers at Kandivali East, Mumbai, is a majestic grandeur tower. The project offers smart 1 BHK and 2 BHK apartments with beautiful exterior views on all sides. The 3 wings each having magnificent 23 storey high-rise towers have dedicated amenities for a relaxing & smart lifestyle. Along with blissful external amenities, your home should tell the story of who you are and be a collection of what you love. The homes are meticulously designed with zero wastage.\n\nFrom developing exclusive projects to excellent quality homes that carry the assurance of high quality & clear legal titles, Darshan Developers and Paton Constructions Pvt Ltd has made a significant impact in creating a modern-day living. Our persistent strive is to provide quality construction to our customers and offer elegant amenities for a comfortable lifestyle. Today, Darshan Group is well known for excellent planning & design of quality construction with speed in Mumbai suburbs",
+      "Location": "Paton Towers, Akurli Cross Road, Lokhandwala Complex, Kandivali East.",
+      "ImagePath": "/images/project-15img.webp",
+      "AltText": "Omkar Alta Monte",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Fire Fighting System.\nLibrary/Reading Room\nDedicated 2 Wheelers Parking Area.\nRainwater Harvesting.\nMultipurpose Hal.",
+      "ReraNumber": "P51800024618",
+      "SortOrder": 14,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1 BHK Floor Plan",
+          "ImagePath": "/images/project-15-floor-map.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2 BHK Floor Plan",
+          "ImagePath": "/images/project-15-floor-map1.webp",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Project",
+      "Title": "Rock Highland",
+      "Slug": "rock-highland",
+      "Body": "Rock Highland is a residential masterpiece that has been constructed on the premise of promising a happy and secure future to its residents and to offer them a lifestyle that will elevate to heightened levels of polished luxury. The development offers 2 & 3 BHK premium apartments that are designed with precision and stands out beautifully on the skyline of Kandivali.\n\nKandivali West is an address that is at the centre of conveniences, social infrastructure and seamless connectivity. At the centre of Kandivali West, Rock Highland stands out, as a shimmering beautiful masterpiece. By spoiling you with the best of recreational amenities, Rock Highland uplifts you and your senses to the next level of relaxation. Every day will feel like a vacation and every moment a journey towards pure bliss!",
+      "Location": "Rock Highland, Next to SBI Bank, Opp. Joy Ice-Cream, Shri Hanuman Mandir Road, Charkop, Kandivali (W), Mumbai - 400 067",
+      "ImagePath": "/images/project-16img.webp",
+      "AltText": "Rock Highland",
+      "Amenities": "Malad Railway Station\nMall\nJvlr Road &Proposed Metro Station\nCafes\nHospital",
+      "Highlights": "Podium Car Parking.\nCafeteria.\nBarbeque Place.\nKaraoke Room.\nOpen Library.",
+      "ReraNumber": "P51800049632",
+      "SortOrder": 15,
+      "Published": false,
+      "Featured": false,
+      "Media": [
+        {
+          "Kind": "FloorPlan",
+          "Caption": "1 BHK Floor Plan",
+          "ImagePath": "/images/project-16floormap.webp",
+          "SortOrder": 0
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "2 BHK Floor Plan",
+          "ImagePath": "/images/project-16floormap1.webp",
+          "SortOrder": 1
+        },
+        {
+          "Kind": "FloorPlan",
+          "Caption": "3 BHK Floor Plan",
+          "ImagePath": "/images/project-16floormap2.webp",
+          "SortOrder": 2
+        }
+      ]
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Banner",
+      "Title": "Your next chapter starts here.",
+      "Slug": "home-banner",
+      "Subtitle": "Discover spaces across Mumbai with a team that puts your needs first.",
+      "ImagePath": "/images/project-banner.webp",
+      "AltText": "Property architecture from the DDS Realty website",
+      "LinkUrl": "/projects",
+      "ButtonText": "Explore projects",
+      "Published": true
+    },
+    {
+      "SiteId": "dds",
+      "Kind": "Banner",
+      "Title": "Make your next move count.",
+      "Slug": "dds-home-banner",
+      "Subtitle": "Creative thinking. Clear communication. Personal support for your business.",
+      "LinkUrl": "/dds/contact",
+      "ButtonText": "Start a conversation",
+      "Published": true
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "Why Invest in Real Estate in 2025",
+      "Slug": "why-invest-in-real-estate-in-2025",
+      "Subtitle": "Real estate remains one of the safest long-term investment options.",
+      "Body": "With rapid urban development, rising rental demand, and limited land supply, real estate continues to deliver stable returns. Investors benefit from capital appreciation, rental income, tax deductions, and long-term security. In 2025, infrastructure projects and smart cities further boost growth.",
+      "ImagePath": "/images/blog-1.webp",
+      "AltText": "Why Invest in Real Estate in 2025",
+      "SortOrder": 0,
+      "Published": false
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "Top Residential Areas in Mumbai",
+      "Slug": "top-residential-areas-in-mumbai",
+      "Subtitle": "Discover Mumbai’s most in-demand residential locations.",
+      "Body": "Areas like Andheri, Malad, Goregaon, Thane, and Navi Mumbai continue to attract buyers due to excellent connectivity, metro expansion, social infrastructure, and employment hubs. These locations offer strong resale value and rental yields.",
+      "ImagePath": "/images/blog-2.webp",
+      "AltText": "Top Residential Areas in Mumbai",
+      "SortOrder": 1,
+      "Published": false
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "Home Buying Checklist",
+      "Slug": "home-buying-checklist",
+      "Subtitle": "A must-follow checklist before purchasing your home.",
+      "Body": "Always verify legal approvals, RERA registration, builder reputation, carpet area, possession timeline, and loan eligibility. Inspect the locality, water supply, parking, and resale potential to avoid future issues.",
+      "ImagePath": "/images/blog-3.webp",
+      "AltText": "Home Buying Checklist",
+      "SortOrder": 2,
+      "Published": false
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "RERA Rules Explained",
+      "Slug": "rera-rules-explained",
+      "Subtitle": "Understand how RERA protects property buyers.",
+      "Body": "RERA ensures transparency by mandating project registration, clear possession dates, penalty clauses for delays, and escrow accounts. Buyers can now track project status and file complaints against unfair practices.",
+      "ImagePath": "/images/blog-4.webp",
+      "AltText": "RERA Rules Explained",
+      "SortOrder": 3,
+      "Published": false
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "Rental vs Buying Property",
+      "Slug": "rental-vs-buying-property",
+      "Subtitle": "Should you rent or buy a property?",
+      "Body": "Renting offers flexibility with lower upfront costs, while buying builds long-term wealth and stability. The right choice depends on income, lifestyle, city, loan rates, and long-term financial goals.",
+      "ImagePath": "/images/blog-5.webp",
+      "AltText": "Rental vs Buying Property",
+      "SortOrder": 4,
+      "Published": false
+    },
+    {
+      "SiteId": "realty",
+      "Kind": "Blog",
+      "Title": "Future of Real Estate in India",
+      "Slug": "future-of-real-estate-in-india",
+      "Subtitle": "Key trends shaping India’s property market.",
+      "Body": "The future includes smart homes, green buildings, affordable housing, REIT growth, and digital transactions. Government reforms and infrastructure investments continue to strengthen buyer confidence.",
+      "ImagePath": "/images/blog-6.webp",
+      "AltText": "Future of Real Estate in India",
+      "SortOrder": 5,
+      "Published": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+@model PublicPage
+@{Layout="_Layout";var item=Model.Entry!;var project=item.Kind=="Project";}
+<section class="page-banner"><div class="container"><a href="@(Model.Root+(project?"/projects":"/blog"))">← @(project?"All projects":"All insights")</a><span class="eyebrow">@item.Location</span><h1>@item.Title</h1><p>@item.Subtitle</p></div></section>
+<section class="container section detail-grid"><article>@if(item.ImagePath!=""){<img class="detail-cover" src="@item.ImagePath" alt="@item.AltText" width="1100" height="740" fetchpriority="high"/>}@if(project){<div class="facts">@foreach(var fact in new[]{item.Price,item.Configuration,item.PropertyType,item.Possession}){if(fact!=""){<span>@fact</span>}}</div>}<h2>@(project?"A closer look.":item.Title)</h2><div class="prose">@item.Body</div>
+@if(project){
+@if(item.Highlights!=""){<h2>Project highlights</h2><ul class="feature-list">@foreach(var text in Catalog.Lines(item.Highlights)){<li>@text</li>}</ul>}
+@if(item.Amenities!=""){<h2>Amenities</h2><ul class="amenities">@foreach(var text in Catalog.Lines(item.Amenities)){<li>@text</li>}</ul>}
+@foreach(var kind in new[]{"Gallery","FloorPlan"}){var images=item.Media.Where(x=>x.Kind==kind).OrderBy(x=>x.SortOrder).ThenBy(x=>x.Id).ToList();if(images.Count>0){<h2>@(kind=="FloorPlan"?"Floor plans":"Gallery")</h2><div class="gallery">@foreach(var photo in images){<figure><a href="@photo.ImagePath" target="_blank" rel="noopener"><img class="@(kind=="FloorPlan"?"floor-plan":"")" src="@photo.ImagePath" alt="@photo.Caption" loading="lazy" width="600" height="440"/></a><figcaption>@photo.Caption</figcaption></figure>}</div>}}
+@if(item.MapUrl!=""){<h2>Location</h2><p>@item.Location</p><iframe class="map" src="@item.MapUrl" title="Map of @item.Title" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>}
+@if(item.ReraNumber!=""){<p class="rera">RERA registration: @item.ReraNumber</p>}
+<p class="small muted">Images are indicative. Confirm current pricing, availability, specifications and project documents with our team.</p>
+}
+</article><aside class="contact-box"><span class="eyebrow">LET'S FIND YOUR FIT</span><h2>@(project?"Interested in this project?":"Have a question?")</h2><p>Share a few details and our team will get in touch.</p>@if(ViewBag.Preview==true){<p>Admin preview · enquiry form is disabled.</p>}else{<partial name="_ContactForm" model="Model"/>}</aside></section>
